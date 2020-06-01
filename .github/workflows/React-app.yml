@@ -42,4 +42,4 @@ jobs:
 
     # Deploy Surge
     - name: Run Surge
-      run: surge ./ umair.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+      run: surge ./ umair112.surge.sh --token ${{ secrets.SURGE_TOKEN }}
