@@ -42,4 +42,4 @@ jobs:
 
     # Deploy Surge
     - name: Run Surge
-      run: surge ./React-app_umair.surge.sh --token ${{ secrets.TOK }}
+      run: surge ./React-app_umair.surge.sh --token ${{ secrets.Surge_Token }}
