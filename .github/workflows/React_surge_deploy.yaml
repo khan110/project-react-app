@@ -21,7 +21,7 @@ jobs:
 echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
 
    - name: install yarn
-     run: sudo apt update && sudo apt install yarn      
+     run:  sudo apt install yarn      
    - name: React app
      run: yarn build
    - name: Install surge
